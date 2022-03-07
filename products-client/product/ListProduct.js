@@ -42,7 +42,7 @@ export default class ListProduct extends Component {
     render() {
       return (
         <View style={ styles.container }>
-          <Text style={ styles.header1 }>List Products</Text>
+          <Text style={ styles.header1 }>List Products official</Text>
           <View style={ styles.container }>
             <FlatList
               data={ this.state.products }
